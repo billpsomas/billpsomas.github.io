@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Marie Skłodowska-Curie Postdoctoral Fellow · Visual Recognition Group · CTU in Prague
 
 profile:
   align: right
