@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Marie Skłodowska-Curie Postdoctoral Fellow · Visual Recognition Group · CTU in Prague
+subtitle: Marie Skłodowska-Curie Postdoctoral Fellow · [Visual Recognition Group](https://vrg.fel.cvut.cz/) · CTU in Prague
 
 profile:
   align: right
