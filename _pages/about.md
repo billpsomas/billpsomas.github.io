@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Marie Skłodowska-Curie Postdoctoral Fellow · Visual Recognition Group · CTU in Prague
+subtitle: Marie Skłodowska-Curie Postdoctoral Fellow · Visual Recognition Group, CTU in Prague
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>G-10</p>
+    <p>Building G, Room 10</p>
     <p>Karlovo náměstí 13</p>
     <p>120 00 Nové Město, Prague</p>
 
@@ -27,6 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a postdoctoral researcher in Computer Vision and Machine Learning working at [Visual Recognition Group](https://vrg.fel.cvut.cz). Most recently, I was awarded the [MSCA Postdoctoral Fellowship 2024](https://marie-sklodowska-curie-actions.ec.europa.eu/calls/msca-postdoctoral-fellowships-2024) for my RAVIOLI project. I successfully defended my Ph.D. dissertation titled Learning Visual and Multimodal Representations at the National Technical University of Athens (NTUA). Prior to that, I received a MSc in Data Science and Information Technologies with a specialization in “Big Data and Artificial Intelligence” from the National and Kapodistrian University of Athens and a Diploma as a Rural, Surveying and Geoinformatics Engineer from NTUA.
+I am a postdoctoral researcher in Computer Vision and Machine Learning working at the [Visual Recognition Group](https://vrg.fel.cvut.cz) of [Czech Technical University in Prague](https://www.cvut.cz/en). I was recently awarded the [MSCA Postdoctoral Fellowship 2024](https://marie-sklodowska-curie-actions.ec.europa.eu/calls/msca-postdoctoral-fellowships-2024) for my project `Retrieval-Augmented VIsion-Language Models for Open-vocabulary LocalizatIon (RAVIOLI)`. 
 
-I have completed internships at research institutes such as Inria Rennes and the Institute of Advanced Research in Artificial Intelligence (IARAI). I have served as a research assistant at the Athena Research Center and NTUA. I have contributed to 5 European, 2 Greek, and 1 international research projects, co-supervised 6 Diploma/Master theses, and published 3 theses, 2 journal articles, and 10 conference and workshop papers in my fields of expertise. Additionally, I have organized 2 workshops and symposiums, served as a session chair at 1 conference, and reviewed papers for 4 journals and 8 conferences. I have also contributed to the teaching of 3 undergraduate and 1 postgraduate courses at NTUA and have delivered 3 invited talks and lectures.
+I received my Ph.D. in September 2024 from the [National Technical University of Athens (NTUA)](https://ntua.gr/en/), where I defended my dissertation, [Learning Visual and Multimodal Representations](https://freader.ekt.gr/eadd/index.php?doc=57401&lang=en), under the supervision of [Konstantinos Karantzalos](http://users.ntua.gr/karank/) and [Yannis Avrithis](https://avrithis.net/).
+
+I have gained research experience through internships at leading institutes such as [Inria Rennes](https://www.inria.fr/en/inria-centre-rennes-university), [Institute of Advanced Research in Artificial Intelligence (IARAI)](https://www.linkedin.com/company/iarai/), and [Athena Research Center](https://www.athenarc.gr/en). I have published `7 papers in A* venues` including `CVPR`, `ICCV`, `ECCV`, `ICLR`, and `NeurIPS`, in addition to journal and workshop publications. Beyond research, I contribute to the academic community through reviewing, teaching, workshop organization, and student supervision.
