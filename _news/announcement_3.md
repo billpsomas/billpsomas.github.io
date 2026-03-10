@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Accepted to NeurIPS 2025 — Instance-Level Composed Image Retrieval"
+title: "Accepted to NeurIPS 2025 — Instance-Level Composed Image Retrieval 🎉"
 date: 2025-09-18
 categories: news
 related_posts: false
@@ -15,11 +15,6 @@ Highlights:
 
 - Focus: composed image retrieval at the instance level, addressing how to retrieve particular objects or items within images using composed queries.
 - Contributions: a dataset (i-CIR) and a method (BASIC) for this new task.
-
-- Preprint (arXiv): https://arxiv.org/abs/2510.25387
-- Code: https://github.com/billpsomas/icir
-
-Preview image (if available): /assets/img/publication_preview/icir.png
 
 Many thanks to the co-authors and reviewers for their feedback.
 

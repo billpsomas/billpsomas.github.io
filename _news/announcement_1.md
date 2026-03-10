@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PhD defense complete 🎉"
+title: "PhD Defense Complete 🎉"
 date: 2024-09-10
 categories: news
 description: I successfully defended my PhD dissertation.
