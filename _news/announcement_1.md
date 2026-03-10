@@ -1,8 +1,10 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
-inline: true
-related_posts: false
+title: "PhD defense complete 🎉"
+date: 2024-09-10
+categories: news
+description: I successfully defended my PhD dissertation.
 ---
 
-A simple inline announcement.
+I successfully defended my PhD dissertation — thank you everyone who came!  
+Slides: [Download dissertation slides]({{ '/assets/defense_psomas.pdf' | relative_url }})
