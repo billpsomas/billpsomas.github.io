@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Accepted to ICLR 2026 — Attention, Please! Revisiting Attentive Probing Through the Lens of Efficiency 🎉"
+title: "Accepted to ICLR 2026 — Revisiting Attentive Probing Through the Lens of Efficiency 🎉"
 date: 2026-01-25
 categories: news
 related_posts: false
