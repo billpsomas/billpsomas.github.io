@@ -406,6 +406,11 @@ ninja.data = [{
           description: "Our paper accepted to NeurIPS 2025. Code and preprint available.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
+            },},{id: "news-accepted-to-iclr-2026-attention-please-revisiting-attentive-probing-through-the-lens-of-efficiency",
+          title: 'Accepted to ICLR 2026 — Attention, Please! Revisiting Attentive Probing Through the Lens...',
+          description: "Our paper accepted to ICLR 2026. Code and preprint available.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_4/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
