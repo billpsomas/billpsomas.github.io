@@ -396,14 +396,14 @@ ninja.data = [{
           description: "I successfully defended my PhD dissertation.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
-            },},{id: "news-phd-defense-complete",
-          title: 'PhD defense complete 🎉',
-          description: "I successfully defended my PhD dissertation.",
+            },},{id: "news-awarded-msca-postdoctoral-fellowship",
+          title: 'Awarded MSCA Postdoctoral Fellowship 🎉',
+          description: "Awarded MSCA Postdoctoral Fellowship with score 98/100.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-phd-defense-complete",
-          title: 'PhD defense complete 🎉',
-          description: "I successfully defended my PhD dissertation.",
+            },},{id: "news-accepted-to-neurips-2025-instance-level-composed-image-retrieval",
+          title: 'Accepted to NeurIPS 2025 — Instance-Level Composed Image Retrieval',
+          description: "Our paper accepted to NeurIPS 2025. Code and preprint available.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
             },},{id: "projects-project-1",
