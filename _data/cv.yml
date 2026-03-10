@@ -31,7 +31,7 @@ cv:
         start_date: 2020
         end_date: 2024
         highlights:
-          - PhD dissertation: "Learning Visual and Multimodal Representations"
+          - PhD dissertation "Learning Visual and Multimodal Representations"
           - 4 publications in A* conferences (ICLR, NeurIPS, ECCV, ICCV)
 
       - institution: National and Kapodistrian University of Athens
@@ -43,8 +43,8 @@ cv:
         end_date: 2020
         score: "9.6/10"
         highlights:
-          - Master's dissertation: "Metric Learning: A Deep Dive"
-          - Specialization: Big Data and Artificial Intelligence
+          - Master's dissertation "Metric Learning - A Deep Dive"
+          - Specialization in Big Data and Artificial Intelligence
 
       - institution: National Technical University of Athens
         location: Athens, Greece
@@ -55,8 +55,8 @@ cv:
         end_date: 2018
         score: "7.38/10"
         highlights:
-          - Diploma's dissertation: "Investigation of Greek Character Automatic Recognition Methods in Ancient Epigraphic Images"
-          - Specialization: Artificial Intelligence for Remote Sensing
+          - Diploma's dissertation "Investigation of Greek Character Automatic Recognition Methods in Ancient Epigraphic Images"
+          - Specialization in Artificial Intelligence for Remote Sensing
 
     Experience:
       - company: Czech Technical University in Prague
@@ -66,33 +66,24 @@ cv:
         end_date: present
         summary: Conducting research in computer vision and vision-language learning.
         highlights:
-          - Instance-level generation
-          - Open-vocabulary segmentation
-          - Composed image retrieval
+          - 3 publications in A* conferences (up to date)
 
       - company: National and Kapodistrian University of Athens
         position: Visiting Lecturer
         location: Athens, Greece
         start_date: 2024
         end_date: present
-        summary: Independently teaching the "Computer Vision" course in the MSc programme in Data Science and Information Technologies.
-
-      - company: National Technical University of Athens
-        position: Postdoctoral Researcher
-        location: Athens, Greece
-        start_date: 2024
-        end_date: 2024
-        summary: Worked on the H2020 FET project RAMONES.
+        summary: Teaching the "Computer Vision" course in the MSc programme in Data Science and Information Technologies.
         highlights:
-          - Contributed to WP1 on underwater gamma radiation instruments
-          - Contributed to WP4 on multimodal data analysis and environmental modeling
+          - Develop the course materials and assignments
+          - Deliver lectures and supervised students
 
       - company: National Technical University of Athens
         position: Doctoral Researcher
         location: Athens, Greece
         start_date: 2020
         end_date: 2024
-        summary: Researcher contributing to multiple European, Greek, and international projects in computer vision, remote sensing, and multimodal learning.
+        summary: Researcher contributing to multiple research projects in computer vision, remote sensing, and multimodal learning.
         highlights:
           - RAMONES (H2020)
           - BiCUBES (HFRI)
