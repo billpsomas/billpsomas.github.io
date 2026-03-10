@@ -7,4 +7,4 @@ description: I successfully defended my PhD dissertation.
 ---
 
 I successfully defended my PhD dissertation — thank you everyone who came!  
-Slides: [Download dissertation slides]({{ '/assets/defense_psomas.pdf' | relative_url }})
+Slides: [Download dissertation slides]({{ '/assets/pdf/defense_psomas.pdf' | relative_url }})

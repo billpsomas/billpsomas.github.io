@@ -1,10 +1,15 @@
 ---
 layout: post
-title: "PhD defense complete 🎉"
-date: 2024-09-10
+title: "Awarded MSCA Postdoctoral Fellowship 🎉"
+date: 2025-02-10
 categories: news
-description: I successfully defended my PhD dissertation.
+related_posts: false
+description: Awarded MSCA Postdoctoral Fellowship with score 98/100.
 ---
 
-I successfully defended my PhD dissertation — thank you everyone who came!  
-Slides: [Download dissertation slides]({{ '/assets/defense_psomas.pdf' | relative_url }})
+I was awarded the MSCA Postdoctoral Fellowship with a score of 98/100 on 10 February 2025. Thank you to everyone who supported me.
+
+Proposal (Part B1): [Download the proposal]({{ '/assets/pdf/partb1_final.pdf' | relative_url }})
+
+---
+
