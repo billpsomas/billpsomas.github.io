@@ -1,3 +1,19 @@
 "ICLR":
   url: "https://iclr.cc"
   color: "#4C96B7"
+
+"NeurIPS":
+  url: "https://neurips.cc"
+  color: "#4C96B7"
+
+"ECCV":
+  url: "https://eccv.ecva.net"
+  color: "#4C96B7"
+
+"ICCV":
+  url: "https://iccv.thecvf.com"
+  color: "#4C96B7"
+
+"CVPR":
+  url: "https://cvpr.thecvf.com"
+  color: "#4C96B7"
