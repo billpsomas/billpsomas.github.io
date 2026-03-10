@@ -1,189 +1,135 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Bill Psomas
+  label: MSCA Postdoctoral Fellow
+  email: vasileios.psomas@fel.cvut.cz
+  location: Prague, Czech Republic
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Marie Skłodowska-Curie Postdoctoral Fellow at Visual Recogntion Group of Czech Technical University in Prague. My research focuses on visual and multimodal representation learning.
 
   social_networks:
     - network: X
-      username: AlbertEinstein
+      username: billpsomas
     - network: GitHub
-      username: example
+      username: billpsomas
     - network: LinkedIn
-      username: example
+      username: bill-psomas
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: Karlovo náměstí 13
+    city: Prague
+    region: Nové Město
+    postalCode: "12000"
+    countryCode: CZ
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: National Technical University of Athens
+        location: Athens, Greece
+        url: https://www.ntua.gr/
+        area: Deep Learning for Computer Vision
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        start_date: 2020
+        end_date: 2024
         highlights:
-          - Description 1.
-          - Description 2.
+          - PhD dissertation: "Learning Visual and Multimodal Representations"
+          - 4 publications in A* conferences (ICLR, NeurIPS, ECCV, ICCV)
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: National and Kapodistrian University of Athens
+        location: Athens, Greece
+        url: https://en.uoa.gr/
+        area: Data Science and Information Technologies
+        studyType: MSc
+        start_date: 2018
+        end_date: 2020
+        score: "9.6/10"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Master's dissertation: "Metric Learning: A Deep Dive"
+          - Specialization: Big Data and Artificial Intelligence
+
+      - institution: National Technical University of Athens
+        location: Athens, Greece
+        url: https://www.ntua.gr/
+        area: Rural, Surveying and Geoinformatics Engineering
+        studyType: Diploma
+        start_date: 2012
+        end_date: 2018
+        score: "7.38/10"
+        highlights:
+          - Diploma's dissertation: "Investigation of Greek Character Automatic Recognition Methods in Ancient Epigraphic Images"
+          - Specialization: Artificial Intelligence for Remote Sensing
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Czech Technical University in Prague
+        position: Postdoctoral Researcher
+        location: Prague, Czech Republic
+        start_date: 2024
+        end_date: present
+        summary: Conducting research in computer vision and vision-language learning.
         highlights:
-          - Relativity
-          - Description 2.
+          - Instance-level generation
+          - Open-vocabulary segmentation
+          - Composed image retrieval
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: National and Kapodistrian University of Athens
+        position: Visiting Lecturer
+        location: Athens, Greece
+        start_date: 2024
+        end_date: present
+        summary: Independently teaching the "Computer Vision" course in the MSc programme in Data Science and Information Technologies.
+
+      - company: National Technical University of Athens
+        position: Postdoctoral Researcher
+        location: Athens, Greece
+        start_date: 2024
+        end_date: 2024
+        summary: Worked on the H2020 FET project RAMONES.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Contributed to WP1 on underwater gamma radiation instruments
+          - Contributed to WP4 on multimodal data analysis and environmental modeling
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: National Technical University of Athens
+        position: Doctoral Researcher
+        location: Athens, Greece
+        start_date: 2020
+        end_date: 2024
+        summary: Researcher contributing to multiple European, Greek, and international projects in computer vision, remote sensing, and multimodal learning.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - RAMONES (H2020)
+          - BiCUBES (HFRI)
+          - iTOBOS (H2020)
+          - eOSD (KAUST)
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - company: Institute of Advanced Research in Artificial Intelligence
+        position: Research Intern
+        location: Vienna, Austria
+        start_date: 2022
+        end_date: 2023
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Developed an attention-based pooling mechanism for convolutional networks and vision transformers
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - company: Inria Rennes - Bretagne Atlantique
+        position: Research Intern
+        location: Rennes, France
+        start_date: 2020
+        end_date: 2020
+        highlights:
+          - Developed a novel evaluation setting and a novel loss function for deep metric learning
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - company: Athena Research Center
+        position: Research Assistant
+        location: Marousi, Greece
+        start_date: 2019
+        end_date: 2020
+        highlights:
+          - Contributed to plant species recognition using machine learning and computer vision in the AdVENt project
+
+      - company: Mismatch
+        position: Computer Vision Engineer
+        location: Patras, Greece
+        start_date: 2020
+        end_date: 2024
+        highlights:
+          - Designed background subtraction algorithms for basketball court imagery
+          - Trained detectors for player, ball, and digit detection
+          - Developed automatic pan-and-zoom algorithms
+          - Worked on jersey color/number datasets and spatio-temporal action localization
