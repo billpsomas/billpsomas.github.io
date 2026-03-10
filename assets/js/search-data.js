@@ -392,7 +392,7 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
             },},{id: "news-phd-defense-complete",
-          title: 'PhD defense complete 🎉',
+          title: 'PhD Defense Complete 🎉',
           description: "I successfully defended my PhD dissertation.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
@@ -402,7 +402,7 @@ ninja.data = [{
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
             },},{id: "news-accepted-to-neurips-2025-instance-level-composed-image-retrieval",
-          title: 'Accepted to NeurIPS 2025 — Instance-Level Composed Image Retrieval',
+          title: 'Accepted to NeurIPS 2025 — Instance-Level Composed Image Retrieval 🎉',
           description: "Our paper accepted to NeurIPS 2025. Code and preprint available.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
