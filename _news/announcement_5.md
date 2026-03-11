@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Accepted to CVPR 2026 — Retrieve and Segment 🎉"
-date: 2026-03-10
+date: 2026-02-20
 categories: news
 related_posts: false
 description: "Our paper accepted to CVPR 2026. Code and preprint available."
