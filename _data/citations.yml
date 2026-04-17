@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-01'
+  last_updated: '2026-04-17'
 papers:
   qiDVfC4AAAAJ:3fE2CSJIrl8C:
     citations: 0
@@ -14,7 +14,7 @@ papers:
     title: The drought-alert decision support system for water resources management
     year: '2020'
   qiDVfC4AAAAJ:9yKSN-GCB0IC:
-    citations: 203
+    citations: 205
     title: 'What to Hide from Your Students: Attention-Guided Masked Image Modeling'
     year: '2022'
   qiDVfC4AAAAJ:LkGwnXOMwfcC:
@@ -22,7 +22,7 @@ papers:
     title: Evaluation of Resource-Efficient Crater Detectors on Embedded Systems
     year: '2024'
   qiDVfC4AAAAJ:MXK_kJrjxJIC:
-    citations: 4
+    citations: 5
     title: Instance-Level Composed Image Retrieval
     year: '2025'
   qiDVfC4AAAAJ:ULOm3_A8WrAC:
@@ -50,10 +50,10 @@ papers:
     title: Learning Visual and Multimodal Representations
     year: '2024'
   qiDVfC4AAAAJ:kNdYIx-mwKoC:
-    citations: 5
+    citations: 7
     title: Composed Image Retrieval for Training-Free Domain Conversion
     year: '2025'
   qiDVfC4AAAAJ:qjMakFHDy7sC:
-    citations: 73
+    citations: 75
     title: 'Deep learning for downscaling remote sensing images: Fusion and super-resolution'
     year: '2022'
