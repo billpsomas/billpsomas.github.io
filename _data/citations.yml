@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-25'
+  last_updated: '2026-06-01'
 papers:
   qiDVfC4AAAAJ:3fE2CSJIrl8C:
     citations: 1
@@ -10,7 +10,7 @@ papers:
     title: Attention, Please! Revisiting Attentive Probing Through the Lens of Efficiency
     year: '2026'
   qiDVfC4AAAAJ:9yKSN-GCB0IC:
-    citations: 210
+    citations: 212
     title: 'What to Hide from Your Students: Attention-Guided Masked Image Modeling'
     year: '2022'
   qiDVfC4AAAAJ:LkGwnXOMwfcC:
@@ -18,7 +18,7 @@ papers:
     title: Evaluation of Resource-Efficient Crater Detectors on Embedded Systems
     year: '2024'
   qiDVfC4AAAAJ:MXK_kJrjxJIC:
-    citations: 7
+    citations: 8
     title: Instance-Level Composed Image Retrieval
     year: '2025'
   qiDVfC4AAAAJ:ULOm3_A8WrAC:
@@ -26,7 +26,7 @@ papers:
     title: 'Retrieve and Segment: Are a Few Examples Enough to Bridge the Supervision Gap in Open-Vocabulary Segmentation?'
     year: '2026'
   qiDVfC4AAAAJ:UeHWp8X0CEIC:
-    citations: 25
+    citations: 26
     title: 'OpenFilter: A Framework to Democratize Research Access to Social Media AR Filters'
     year: '2022'
   qiDVfC4AAAAJ:W7OEmFMy1HYC:
@@ -38,9 +38,13 @@ papers:
     title: The drought-alert decision support system for water resources management
     year: '2020'
   qiDVfC4AAAAJ:_FxGoFyzp5QC:
-    citations: 21
+    citations: 22
     title: Composed Image Retrieval for Remote Sensing
     year: '2024'
+  qiDVfC4AAAAJ:_kc_bZDykSQC:
+    citations: 0
+    title: Benchmarking Composed Image Retrieval for Applied Earth Observation
+    year: '2026'
   qiDVfC4AAAAJ:d1gkVwhDpl0C:
     citations: 47
     title: 'It takes two to tango: Mixup for deep metric learning'
@@ -50,7 +54,7 @@ papers:
     title: Learning Visual and Multimodal Representations
     year: '2024'
   qiDVfC4AAAAJ:kNdYIx-mwKoC:
-    citations: 8
+    citations: 9
     title: Composed Image Retrieval for Training-Free Domain Conversion
     year: '2025'
   qiDVfC4AAAAJ:qjMakFHDy7sC:
