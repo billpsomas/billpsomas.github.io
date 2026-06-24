@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-06-12'
+  last_updated: '2026-06-24'
 papers:
   qiDVfC4AAAAJ:3fE2CSJIrl8C:
-    citations: 1
+    citations: 2
     title: REGLUE Your Latents with Global and Local Semantics for Entangled Diffusion
-    year: '2025'
+    year: '2026'
   qiDVfC4AAAAJ:4TOpqqG69KYC:
     citations: 0
     title: Geometry-Preserving Dimensionality Reduction for Text Embeddings
-    year: Unknown Year
+    year: '2026'
   qiDVfC4AAAAJ:5nxA0vEk-isC:
-    citations: 8
+    citations: 9
     title: Attention, Please! Revisiting Attentive Probing Through the Lens of Efficiency
     year: '2026'
   qiDVfC4AAAAJ:9yKSN-GCB0IC:
@@ -22,7 +22,7 @@ papers:
     title: Evaluation of Resource-Efficient Crater Detectors on Embedded Systems
     year: '2024'
   qiDVfC4AAAAJ:MXK_kJrjxJIC:
-    citations: 9
+    citations: 10
     title: Instance-Level Composed Image Retrieval
     year: '2025'
   qiDVfC4AAAAJ:ULOm3_A8WrAC:
@@ -42,7 +42,7 @@ papers:
     title: The drought-alert decision support system for water resources management
     year: '2020'
   qiDVfC4AAAAJ:_FxGoFyzp5QC:
-    citations: 23
+    citations: 24
     title: Composed Image Retrieval for Remote Sensing
     year: '2024'
   qiDVfC4AAAAJ:_kc_bZDykSQC:
@@ -58,7 +58,7 @@ papers:
     title: Learning Visual and Multimodal Representations
     year: '2024'
   qiDVfC4AAAAJ:kNdYIx-mwKoC:
-    citations: 10
+    citations: 11
     title: Composed Image Retrieval for Training-Free Domain Conversion
     year: '2025'
   qiDVfC4AAAAJ:qjMakFHDy7sC:
