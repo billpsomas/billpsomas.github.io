@@ -416,6 +416,11 @@ ninja.data = [{
           description: "Our paper accepted to CVPR 2026. Code and preprint available.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_5/";
+            },},{id: "news-accepted-to-eccv-2026-reglue-your-latents",
+          title: 'Accepted to ECCV 2026 — REGLUE Your Latents 🎉',
+          description: "Our paper accepted to ECCV 2026. Code and preprint available.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_6/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
