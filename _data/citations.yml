@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-24'
+  last_updated: '2026-07-13'
 papers:
   qiDVfC4AAAAJ:3fE2CSJIrl8C:
     citations: 2
@@ -10,7 +10,7 @@ papers:
     title: Geometry-Preserving Dimensionality Reduction for Text Embeddings
     year: '2026'
   qiDVfC4AAAAJ:5nxA0vEk-isC:
-    citations: 9
+    citations: 10
     title: Attention, Please! Revisiting Attentive Probing Through the Lens of Efficiency
     year: '2026'
   qiDVfC4AAAAJ:9yKSN-GCB0IC:
@@ -42,7 +42,7 @@ papers:
     title: The drought-alert decision support system for water resources management
     year: '2020'
   qiDVfC4AAAAJ:_FxGoFyzp5QC:
-    citations: 24
+    citations: 25
     title: Composed Image Retrieval for Remote Sensing
     year: '2024'
   qiDVfC4AAAAJ:_kc_bZDykSQC:
@@ -62,6 +62,6 @@ papers:
     title: Composed Image Retrieval for Training-Free Domain Conversion
     year: '2025'
   qiDVfC4AAAAJ:qjMakFHDy7sC:
-    citations: 81
+    citations: 82
     title: 'Deep learning for downscaling remote sensing images: Fusion and super-resolution'
     year: '2022'
