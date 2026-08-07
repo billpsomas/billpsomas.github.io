@@ -3,6 +3,7 @@ layout: post
 title: "PhD Defense Complete 🎉"
 date: 2024-09-10
 categories: news
+related_posts: false
 description: I successfully defended my PhD dissertation.
 ---
 

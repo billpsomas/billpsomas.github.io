@@ -17,4 +17,3 @@ Highlights:
 - Contributions: a dataset (i-CIR) and a method (BASIC) for this new task.
 
 Many thanks to the co-authors and reviewers for their feedback.
-

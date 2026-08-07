@@ -36,10 +36,40 @@ SCHOLAR_USER_ID: str = load_scholar_user_id()
 OUTPUT_FILE: str = "_data/citations.yml"
 
 
+def configure_proxy() -> None:
+    """Route requests through ScraperAPI when a key is available.
+
+    Google Scholar rate-limits and CAPTCHAs requests coming from cloud IP
+    ranges, which is why this script fails intermittently on GitHub Actions.
+    Setting a SCRAPERAPI_KEY secret makes those requests go through a proxy
+    pool instead. Entirely optional: without the key the script talks to
+    Scholar directly, exactly as before.
+    """
+    api_key = os.environ.get("SCRAPERAPI_KEY", "").strip()
+    if not api_key:
+        print("No SCRAPERAPI_KEY set; querying Google Scholar directly.")
+        return
+    try:
+        from scholarly import ProxyGenerator
+
+        pg = ProxyGenerator()
+        if pg.ScraperAPI(api_key):
+            scholarly.use_proxy(pg)
+            print("Using ScraperAPI proxy for Google Scholar requests.")
+        else:
+            print("ScraperAPI rejected the key; falling back to a direct connection.")
+    except Exception as e:
+        print(f"Could not set up the ScraperAPI proxy ({e}); falling back to a direct connection.")
+
+
 def get_scholar_citations() -> None:
     """Fetch and update Google Scholar citation data."""
     print(f"Fetching citations for Google Scholar ID: {SCHOLAR_USER_ID}")
     today = datetime.now().strftime("%Y-%m-%d")
+
+    # Bound up front: it is read again further down when comparing old and new
+    # data, which raises NameError if the file is missing or unreadable here.
+    existing_data = None
 
     # Check if the output file was already updated today
     if os.path.exists(OUTPUT_FILE):
@@ -64,6 +94,7 @@ def get_scholar_citations() -> None:
 
     scholarly.set_timeout(15)
     scholarly.set_retries(3)
+    configure_proxy()
     try:
         author = scholarly.search_author_id(SCHOLAR_USER_ID)
         author_data = scholarly.fill(author)

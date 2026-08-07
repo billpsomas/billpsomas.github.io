@@ -4,7 +4,7 @@ cv:
   email: vasileios.psomas@fel.cvut.cz
   location: Prague, Czech Republic
   image: ""
-  summary: Marie Skłodowska-Curie Postdoctoral Fellow at Visual Recogntion Group of Czech Technical University in Prague. My research focuses on visual and multimodal representation learning.
+  summary: Marie Skłodowska-Curie Postdoctoral Fellow at the Visual Recognition Group of Czech Technical University in Prague. My research focuses on visual and multimodal representation learning.
 
   social_networks:
     - network: X
@@ -66,7 +66,8 @@ cv:
         end_date: present
         summary: Conducting research in computer vision and vision-language learning.
         highlights:
-          - 3 publications in A* conferences (up to date)
+          - 4 publications in A* conferences (NeurIPS, ICLR, CVPR, ECCV)
+          - Awarded the MSCA Postdoctoral Fellowship 2024 (score 98/100) for the project RAVIOLI
 
       - company: National and Kapodistrian University of Athens
         position: Visiting Lecturer
@@ -98,6 +99,16 @@ cv:
         highlights:
           - Developed an attention-based pooling mechanism for convolutional networks and vision transformers
 
+      - company: Mismatch
+        position: Computer Vision Engineer
+        location: Patras, Greece
+        start_date: 2020
+        end_date: 2024
+        highlights:
+          - Designed background subtraction algorithms for basketball court imagery
+          - Trained detectors for player, ball, and digit detection
+          - Developed automatic pan-and-zoom algorithms
+
       - company: Inria Rennes - Bretagne Atlantique
         position: Research Intern
         location: Rennes, France
@@ -113,14 +124,4 @@ cv:
         end_date: 2020
         highlights:
           - Contributed to plant species recognition using machine learning and computer vision in the AdVENt project
-
-      - company: Mismatch
-        position: Computer Vision Engineer
-        location: Patras, Greece
-        start_date: 2020
-        end_date: 2024
-        highlights:
-          - Designed background subtraction algorithms for basketball court imagery
-          - Trained detectors for player, ball, and digit detection
-          - Developed automatic pan-and-zoom algorithms
           - Worked on jersey color/number datasets and spatio-temporal action localization

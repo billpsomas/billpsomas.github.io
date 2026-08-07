@@ -7,6 +7,7 @@ nav: false
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
+published: false # al-folio demo page, kept as a template. Remove this line to publish.
 ---
 
 <!-- pages/projects.md -->

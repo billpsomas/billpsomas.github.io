@@ -1,34 +1,91 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# Coauthor homepages, used by _layouts/bib.liquid to hyperlink author names
+# on the publications page.
+#
+# Key   = author's last name, lowercased and with accents removed
+#         (e.g. Stojnić -> stojnic).
+# firstname = every spelling of the first name that appears in
+#         _bibliography/papers.bib, so the entry matches however it is written.
+#
+# Only coauthors with a stable personal or institutional page are listed;
+# names without an entry simply render as plain text.
+# All URLs below were checked and returned HTTP 200.
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"amsaleg":
+  - firstname: ["Laurent", "L."]
+    url: https://people.rennes.inria.fr/Laurent.Amsaleg/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"avrithis":
+  - firstname: ["Yannis", "Ioannis", "Y."]
+    url: https://avrithis.net/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"bursuc":
+  - firstname: ["Andrei", "A."]
+    url: https://abursuc.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"chum":
+  - firstname: ["Ondrej", "Ondřej", "O."]
+    url: https://cmp.felk.cvut.cz/~chum/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"efthymiadis":
+  - firstname: ["Nikos", "Nikolaos", "N."]
+    url: https://cmp.felk.cvut.cz/~efthynik/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"filntisis":
+  - firstname: ["Panagiotis", "Panagiotis P.", "P."]
+    url: https://filby89.github.io/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"gidaris":
+  - firstname: ["Spyros", "S."]
+    url: https://gidariss.github.io/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"hofmann":
+  - firstname: ["Thomas", "T."]
+    url: https://da.inf.ethz.ch/people/ThomasHofmann/
+
+"kakogeorgiou":
+  - firstname: ["Ioannis", "Giannis", "I."]
+    url: https://gkakogeorgiou.github.io/
+
+"karantzalos":
+  - firstname: ["Konstantinos", "K."]
+    url: http://users.ntua.gr/karank/
+
+"kijak":
+  - firstname: ["Ewa", "E."]
+    url: https://people.irisa.fr/Ewa.Kijak/
+
+"komodakis":
+  - firstname: ["Nikos", "Nikolaos", "N."]
+    url: https://www.csd.uoc.gr/~komod/
+
+"maragos":
+  - firstname: ["Petros", "P."]
+    url: https://robotics.ntua.gr/members/maragos/
+
+"oliver":
+  - firstname: ["Nuria", "Nuria M", "Nuria M.", "N."]
+    url: https://nuriaoliver.com/
+
+"papoutsis":
+  - firstname: ["Ioannis", "I."]
+    url: https://orionlab.space.noa.gr/author/ioannis-papoutsis/
+
+"retsinas":
+  - firstname: ["George", "Giorgos", "G."]
+    url: https://georgeretsi.github.io/
+
+"sfikas":
+  - firstname: ["Giorgos", "George", "G."]
+    url: https://www.cs.uoi.gr/~sfikas/
+
+"stojnic":
+  - firstname: ["Vladan", "V."]
+    url: https://stojnicv.xyz/
+
+"tolias":
+  - firstname: ["Giorgos", "George", "G."]
+    url: https://cmp.felk.cvut.cz/~toliageo/
+
+"venkataramanan":
+  - firstname: ["Shashanka", "S."]
+    url: https://shashankvkt.github.io/

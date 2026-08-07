@@ -12,4 +12,3 @@ I was awarded the `MSCA Postdoctoral Fellowship` with a score of `98/100`. Thank
 Proposal (Part B1): [Download the proposal]({{ '/assets/pdf/partb1_final.pdf' | relative_url }})
 
 ---
-

@@ -7,6 +7,12 @@ on:
     - cron: "0 0 * * 5" # Friday
   workflow_dispatch:
 
+# contents: write -> push the refreshed _data/citations.yml
+# actions:  write -> dispatch the deploy workflow after pushing (see the last step)
+permissions:
+  contents: write
+  actions: write
+
 jobs:
   update-citations:
     runs-on: ubuntu-latest
@@ -14,12 +20,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      # See CUSTOMIZE.md for details on how to set up PAT for triggering subsequent workflows
-      #        with:
-      #          token: ${{ secrets.PAT }}
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.13"
 
@@ -42,22 +45,48 @@ jobs:
             echo "📝 No existing citations.yml file found."
           fi
 
+      # scholarly is scraping Google Scholar, which rate-limits and CAPTCHAs
+      # cloud IPs. Retry a few times with backoff: attempts can land on
+      # different outbound addresses, so a later one often succeeds.
+      # The old 90s cap was too tight — scholarly's own retry budget alone
+      # (set_retries(3) x set_timeout(15)) can exceed it before Google answers.
       - name: Run citation update script
         id: run_citation_update
         shell: bash
+        env:
+          # Optional. If you add a SCRAPERAPI_KEY repository secret, requests go
+          # through a proxy pool instead of the runner's (frequently blocked) IP.
+          # Unset is fine — the script then queries Google Scholar directly.
+          SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
         run: |
           set +e
-          echo "🚀 Running citation update script (single attempt)..."
-          start_time=$(date)
-          timeout 90 python bin/update_scholar_citations.py
-          status=$?
-          end_time=$(date)
+          attempts=3
+          status=1
+          for i in $(seq 1 $attempts); do
+            echo "🚀 Citation update, attempt $i/$attempts (started $(date -u '+%H:%M:%SZ'))..."
+            timeout 300 python bin/update_scholar_citations.py
+            status=$?
+            if [ $status -eq 0 ]; then
+              echo "✅ Citation update succeeded on attempt $i."
+              break
+            fi
+            if [ $status -eq 124 ]; then
+              echo "⏱️ Attempt $i timed out after 300s."
+            else
+              echo "⚠️ Attempt $i failed with exit code $status."
+            fi
+            if [ $i -lt $attempts ]; then
+              backoff=$((i * 60))
+              echo "😴 Backing off ${backoff}s before retrying..."
+              sleep $backoff
+            fi
+          done
+          echo "status=$status" >> $GITHUB_OUTPUT
           if [ $status -eq 0 ]; then
-            echo "✅ Citation update succeeded (started at $start_time, ended at $end_time)."
             echo "✅ Citation update succeeded." >> $GITHUB_STEP_SUMMARY
           else
-            echo "❌ Citation update script failed with exit code $status (started at $start_time, ended at $end_time)."
-            echo "❌ Citation update script failed with exit code $status." >> $GITHUB_STEP_SUMMARY
+            echo "❌ Citation update failed after $attempts attempts (exit $status)." >> $GITHUB_STEP_SUMMARY
+            echo "Google Scholar most likely blocked the runner. Existing data was left untouched." >> $GITHUB_STEP_SUMMARY
           fi
           set -e
 
@@ -92,10 +121,50 @@ jobs:
           echo "🔧 Git configured."
 
       - name: Commit and push if changed
+        id: commit
         run: |
           git add _data/citations.yml
-          git diff --staged --quiet || (
+          if git diff --staged --quiet; then
+            echo "ℹ️ Nothing to commit."
+            echo "pushed=false" >> $GITHUB_OUTPUT
+          else
             echo "📤 Committing and pushing changes..."
             git commit -m "Update Google Scholar citations"
             git push
-          )
+            echo "pushed=true" >> $GITHUB_OUTPUT
+          fi
+
+      # A push made with GITHUB_TOKEN deliberately does NOT trigger other
+      # workflows, so the commit above would never rebuild the site and the
+      # citation badges would serve stale counts until the next manual push.
+      # workflow_dispatch is the documented exception to that rule, so we can
+      # kick off deploy.yml explicitly — no personal access token required.
+      # https://github.blog/changelog/2022-09-08-github-actions-use-github_token-with-workflow_dispatch-and-repository_dispatch/
+      - name: Trigger the deploy workflow
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "🚀 Dispatching deploy.yml on ${{ github.ref_name }}..."
+          gh workflow run deploy.yml --ref "${{ github.ref_name }}"
+          echo "🚀 Deploy workflow dispatched." >> $GITHUB_STEP_SUMMARY
+
+      # Fail loudly when all three attempts failed. Previously this step did not
+      # exist and the job stayed green, which is how the scraper managed to be
+      # broken from 2026-06-24 onwards without anyone noticing.
+      #
+      # Deliberately not "fail only if the data looks stale": the script skips
+      # writing the file when citation counts are unchanged, so last_updated
+      # tracks when the numbers last moved, not when a run last succeeded, and
+      # a quiet stretch would read as a broken scraper.
+      #
+      # Runs last so a successful partial update is still committed and
+      # deployed before the job goes red.
+      - name: Fail if the citation update failed
+        if: steps.run_citation_update.outputs.status != '0'
+        run: |
+          echo "❌ update_scholar_citations.py failed all attempts (last exit code ${{ steps.run_citation_update.outputs.status }})."
+          echo "Google Scholar most likely blocked the runner's IP. The previous _data/citations.yml"
+          echo "was left untouched, so the badges keep serving the last known counts."
+          echo "If this keeps happening, add a SCRAPERAPI_KEY repository secret (see bin/update_scholar_citations.py)."
+          exit 1
