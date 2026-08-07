@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-news",
+          title: "news",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "Overview of my background and research experience.",
@@ -33,6 +40,11 @@ ninja.data = [{
           description: "Awarded MSCA Postdoctoral Fellowship with score 98/100.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
+            },},{id: "news-joining-the-good-ai-lab",
+          title: 'Joining The Good AI Lab',
+          description: "I joined The Good AI Lab, an independent lab working on AI research for social good.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_7/";
             },},{id: "news-accepted-to-neurips-2025-instance-level-composed-image-retrieval",
           title: 'Accepted to NeurIPS 2025 — Instance-Level Composed Image Retrieval 🎉',
           description: "Our paper accepted to NeurIPS 2025. Code and preprint available.",
@@ -43,16 +55,51 @@ ninja.data = [{
           description: "Our paper accepted to ICLR 2026. Code and preprint available.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
+            },},{id: "news-presenting-at-cvww-2026",
+          title: 'Presenting at CVWW 2026',
+          description: "I presented at the Computer Vision Winter Workshop 2026 in Prague.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_8/";
+            },},{id: "news-visual-search-techniques-at-the-ctu-open-day-2026",
+          title: 'Visual Search Techniques at the CTU Open Day 2026',
+          description: "I presented Visual Search Techniques at the CTU Open Day 2026.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_9/";
             },},{id: "news-accepted-to-cvpr-2026-retrieve-and-segment",
           title: 'Accepted to CVPR 2026 — Retrieve and Segment 🎉',
           description: "Our paper accepted to CVPR 2026. Code and preprint available.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_5/";
+            },},{id: "news-invited-talk-at-gmum-jagiellonian-university",
+          title: 'Invited Talk at GMUM, Jagiellonian University',
+          description: "I gave an invited talk at the GMUM machine learning group in Kraków.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_10/";
+            },},{id: "news-cv4good-workshop-accepted-at-eccv-2026",
+          title: 'CV4GOOD Workshop Accepted at ECCV 2026',
+          description: "CV4GOOD, a workshop on computer vision for humanitarian action, was accepted at ECCV 2026. I am on the organizing committee.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_11/";
             },},{id: "news-accepted-to-eccv-2026-reglue-your-latents",
           title: 'Accepted to ECCV 2026 — REGLUE Your Latents 🎉',
           description: "Our paper accepted to ECCV 2026. Code and preprint available.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_6/";
+            },},{id: "news-retrieve-and-segment-accepted-as-an-oral-at-greeks-in-ai",
+          title: 'Retrieve and Segment Accepted as an Oral at Greeks in AI',
+          description: "Our CVPR 2026 paper Retrieve and Segment was accepted as an oral at Greeks in AI.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_12/";
+            },},{id: "news-most-popular-spotlight-presentation-award-at-greeks-in-ai",
+          title: 'Most Popular Spotlight Presentation Award at Greeks in AI 🎉',
+          description: "Retrieve and Segment won the 1st Most Popular Spotlight Presentation Award at Greeks in AI.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_13/";
+            },},{id: "news-outstanding-reviewer-at-eccv-2026",
+          title: 'Outstanding Reviewer at ECCV 2026',
+          description: "I was recognized as an Outstanding Reviewer at ECCV 2026.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_14/";
             },},{
         id: 'social-cv',
         title: 'CV',
