@@ -5,6 +5,7 @@ date: 2026-01-25
 categories: news
 related_posts: false
 description: "Our paper accepted to ICLR 2026. Code and preprint available."
+featured: true # shown on the homepage highlights list
 ---
 
 We're pleased to announce that our paper "Attention, Please! Revisiting Attentive Probing Through the Lens of Efficiency" has been accepted to ICLR 2026.

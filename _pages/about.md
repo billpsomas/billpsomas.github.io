@@ -19,7 +19,8 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: # blank = show every featured item; `featured_only` below is what curates the list
+  featured_only: true # only show news with `featured: true`; /news/ still lists everything
 
 latest_posts:
   enabled: false

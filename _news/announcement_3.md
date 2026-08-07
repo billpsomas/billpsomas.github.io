@@ -5,6 +5,7 @@ date: 2025-09-18
 categories: news
 related_posts: false
 description: "Our paper accepted to NeurIPS 2025. Code and preprint available."
+featured: true # shown on the homepage highlights list
 ---
 
 We're excited to announce that our paper "Instance-Level Composed Image Retrieval" has been accepted to NeurIPS 2025.

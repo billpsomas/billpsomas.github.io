@@ -5,6 +5,7 @@ date: 2026-06-18
 categories: news
 related_posts: false
 description: "Our paper accepted to ECCV 2026. Code and preprint available."
+featured: true # shown on the homepage highlights list
 ---
 
 We're excited to announce that our paper "REGLUE Your Latents with Global and Local Semantics for Entangled Diffusion" has been accepted to ECCV 2026.

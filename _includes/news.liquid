@@ -1,6 +1,18 @@
 <div class="news">
-  {% if site.news != blank %}
-    {% assign news_size = site.news | size %}
+  {%- comment -%}
+    When a page sets `announcements.featured_only` (the about page does), the
+    limited view shows only items whose front matter has `featured: true`, so
+    the homepage stays a list of highlights rather than the merely most recent.
+    The /news/ page includes this without a limit and therefore lists everything.
+    where_exp rather than `where: "featured", true` so both `true` and "true" match.
+  {%- endcomment -%}
+  {% if include.limit and page.announcements.featured_only %}
+    {% assign news_items = site.news | where_exp: 'item', 'item.featured' %}
+  {% else %}
+    {% assign news_items = site.news %}
+  {% endif %}
+  {% if news_items != blank %}
+    {% assign news_size = news_items | size %}
     <div
       class="table-responsive"
       {% if include.limit and page.announcements.scrollable and news_size > 3 %}
@@ -8,7 +20,7 @@
       {% endif %}
     >
       <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
+        {% assign news = news_items | reverse %}
         {% if include.limit and page.announcements.limit %}
           {% assign news_limit = page.announcements.limit %}
         {% else %}

@@ -5,6 +5,7 @@ date: 2026-02-20
 categories: news
 related_posts: false
 description: "Our paper accepted to CVPR 2026. Code and preprint available."
+featured: true # shown on the homepage highlights list
 ---
 
 We're excited to announce that our paper "Retrieve and Segment: Are a Few Examples Enough to Bridge the Supervision Gap in Open-Vocabulary Segmentation?" has been accepted to CVPR 2026.
