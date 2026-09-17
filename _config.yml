@@ -206,7 +206,6 @@ exclude:
   - _posts/
   - _projects/
   - _books/
-  - _teachings/
 keep_files:
   - CNAME
   - .nojekyll

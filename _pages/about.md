@@ -33,3 +33,11 @@ I am a postdoctoral researcher in Computer Vision and Machine Learning working a
 I received my Ph.D. in September 2024 from the [National Technical University of Athens (NTUA)](https://ntua.gr/en/), where I defended my dissertation, [Learning Visual and Multimodal Representations](https://freader.ekt.gr/eadd/index.php?doc=57401&lang=en), under the supervision of [Konstantinos Karantzalos](http://users.ntua.gr/karank/) and [Yannis Avrithis](https://avrithis.net/).
 
 I have gained research experience through internships at leading institutes such as [Inria Rennes](https://www.inria.fr/en/inria-centre-rennes-university), [Institute of Advanced Research in Artificial Intelligence (IARAI)](https://www.linkedin.com/company/iarai/), and [Athena Research Center](https://www.athenarc.gr/en). I have published `8 papers in A* venues` including `CVPR`, `ICCV`, `ECCV`, `ICLR`, and `NeurIPS`, in addition to journal and workshop publications. Beyond research, I contribute to the academic community through reviewing, teaching, workshop organization, and student supervision.
+
+I teach graduate courses in computer vision, deep learning, and Earth observation:
+
+- `Advanced Methods of Remote Sensing` — NTUA, spring semester, since 2022, across five master's programs.
+- `Computer Vision` — NKUA, MSc in Data Science and Information Technologies, winter semester, since 2024.
+- `BEV033DLA — Advanced Deep Learning` — CTU in Prague, lab instructor.
+
+More detail on the [teaching]({{ '/teaching/' | relative_url }}) page.

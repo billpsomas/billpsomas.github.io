@@ -2,15 +2,11 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
-nav: false
-nav_order: 6
-calendar: true
-published: false # al-folio demo page, kept as a template. Remove this line to publish.
+description: Graduate courses I teach on computer vision, deep learning, and Earth observation.
+nav: true
+nav_order: 3
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
-
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+I teach graduate courses in computer vision and deep learning at the National Technical University of Athens and the National and Kapodistrian University of Athens, and I contribute to the labs of an advanced deep learning course at the Czech Technical University in Prague.
 
 {% include courses.liquid %}

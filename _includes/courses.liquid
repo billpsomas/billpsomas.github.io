@@ -1,24 +1,35 @@
-{% if site.teachings %}
-  <div class="courses">
-    {% assign courses_by_year = site.teachings | sort: 'year' | reverse | group_by: 'year' %}
+{% comment %}
+  Lists the `teachings` collection grouped by teaching role rather than by year,
+  since these are recurring courses taught over multiple academic years.
+  Group order is controlled by each course's `role_order` (lowest first);
+  within a group, courses are sorted by `year` (most recent first).
+{% endcomment %}
 
-    {% for year_group in courses_by_year %}
-      <h2 class="year">{{ year_group.name }}</h2>
+{% if site.teachings.size > 0 %}
+  <div class="courses">
+    {% assign courses_by_role = site.teachings | sort: 'role_order' | group_by: 'role' %}
+
+    {% for role_group in courses_by_role %}
+      <h2 class="year">{{ role_group.name }}</h2>
       <div class="course-list">
-        {% assign year_courses = year_group.items | sort: 'term' %}
-        {% for course in year_courses %}
+        {% assign role_courses = role_group.items | sort: 'year' | reverse %}
+        {% for course in role_courses %}
           <div class="course-item">
             <h3 class="course-title">
               <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
             </h3>
 
             <div class="course-meta">
+              {% if course.institution %}
+                <span class="course-instructor">{{ course.institution }}</span>
+              {% endif %}
+
               {% if course.term %}
                 <span class="course-term">{{ course.term }}</span>
               {% endif %}
 
-              {% if course.instructor %}
-                <span class="course-instructor">{{ course.instructor }}</span>
+              {% if course.years %}
+                <span class="course-term">{{ course.years }}</span>
               {% endif %}
             </div>
 
