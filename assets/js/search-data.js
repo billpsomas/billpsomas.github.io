@@ -95,6 +95,11 @@ ninja.data = [{
           description: "Retrieve and Segment won the 1st Most Popular Spotlight Presentation Award at Greeks in AI.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_13/";
+            },},{id: "news-publicity-chair-and-volunteers-chair-at-greeks-in-ai-2026",
+          title: 'Publicity Chair and Volunteers Chair at Greeks in AI 2026',
+          description: "I served as Publicity Chair and Volunteers Chair at the Greeks in AI 2026 symposium.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_16/";
             },},{id: "news-outstanding-reviewer-at-eccv-2026",
           title: 'Outstanding Reviewer at ECCV 2026',
           description: "I was recognized as an Outstanding Reviewer at ECCV 2026.",
