@@ -23,10 +23,10 @@ I ran the lab on `Vision Transformers`, and designed and ran the final lab as a 
 
 ## Study Programs
 
-The course is part of two master's study plans in `Open Informatics` at CTU:
+The course belongs to the `Open Informatics` follow-up master's program at CTU, appearing in two of its specializations:
 
-- Open Informatics — Artificial Intelligence
-- Open Informatics — Computer Vision
+- Artificial Intelligence
+- Computer Vision
 
 It is taught in English, supervised by the Department of Cybernetics, and carries 6 ECTS.
 
