@@ -117,9 +117,9 @@ ninja.data = [{
           description: "I will serve as an Area Chair at ICLR 2027.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_15/";
-            },},{id: "teachings-bev033dla-advanced-deep-learning",
-          title: 'BEV033DLA — Advanced Deep Learning',
-          description: "Algorithmic and theoretical foundations of deep neural networks, with weekly practical and theoretical labs, at CTU in Prague.",
+            },},{id: "teachings-advanced-deep-learning",
+          title: 'Advanced Deep Learning',
+          description: "Advanced Deep Learning (BEV033DLA) covers the algorithmic and theoretical foundations of deep neural networks, in the Open Informatics master’s program at CTU in Prague.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/advanced-deep-learning-ctu/";
             },},{id: "teachings-advanced-methods-of-remote-sensing",
