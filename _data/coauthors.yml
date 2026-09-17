@@ -19,6 +19,10 @@
   - firstname: ["Tilemachos", "T."]
     url: https://cmp.felk.cvut.cz/~aravatil/
 
+"arnone":
+  - firstname: ["Elisa", "E."]
+    url: https://people.uniud.it/page/elisa.arnone
+
 "avrithis":
   - firstname: ["Yannis", "Ioannis", "Y."]
     url: https://avrithis.net/
@@ -47,6 +51,10 @@
   - firstname: ["Panagiotis", "Panagiotis P.", "P."]
     url: https://filby89.github.io/
 
+"galati":
+  - firstname: ["Francesco", "F."]
+    url: "https://scholar.google.com/citations?user=PxEZk_cAAAAJ&hl=en"
+
 "giannakopoulos":
   - firstname: ["Theodoros", "Thodoris", "T."]
     url: https://tyiannak.github.io/
@@ -63,6 +71,10 @@
   - firstname: ["Ioannis", "Giannis", "I."]
     url: https://gkakogeorgiou.github.io/
 
+"karadima":
+  - firstname: ["Kalliopi", "K."]
+    url: "https://scholar.google.com/citations?hl=el&user=pMnDbrMAAAAJ"
+
 "karantzalos":
   - firstname: ["Konstantinos", "K."]
     url: http://users.ntua.gr/karank/
@@ -75,6 +87,10 @@
   - firstname: ["Nikos", "Nikolaos", "N."]
     url: https://www.csd.uoc.gr/~komod/
 
+"laskar":
+  - firstname: ["Zakaria", "Z."]
+    url: "https://scholar.google.com/citations?hl=en&user=kd3XIUkAAAAJ"
+
 "maragos":
   - firstname: ["Petros", "P."]
     url: https://robotics.ntua.gr/members/maragos/
@@ -82,6 +98,10 @@
 "oliver":
   - firstname: ["Nuria", "Nuria M", "Nuria M.", "N."]
     url: https://nuriaoliver.com/
+
+"ortolani":
+  - firstname: ["Livia", "L."]
+    url: https://page.agr.unipi.it/profile/livia-ortolani-socio-economic-researcher-in-agriculture-and-rural-development/
 
 "papoutsis":
   - firstname: ["Ioannis", "I."]
@@ -94,6 +114,14 @@
 "retsinas":
   - firstname: ["George", "Giorgos", "G."]
     url: https://georgeretsi.github.io/
+
+"riccio":
+  - firstname: ["Piera", "P."]
+    url: https://ellisalicante.org/people/piera/
+
+"sdraka":
+  - firstname: ["Maria", "M."]
+    url: https://orionlab.space.noa.gr/author/maria-sdraka/
 
 "sfikas":
   - firstname: ["Giorgos", "George", "G."]
@@ -110,6 +138,10 @@
 "tolias":
   - firstname: ["Giorgos", "George", "G."]
     url: https://cmp.felk.cvut.cz/~toliageo/
+
+"vellas":
+  - firstname: ["Simon", "S."]
+    url: "https://scholar.google.com/citations?user=U3qjnJMAAAAJ&hl=en"
 
 "venkataramanan":
   - firstname: ["Shashanka", "S."]
