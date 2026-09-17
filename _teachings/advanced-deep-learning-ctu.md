@@ -13,9 +13,9 @@ course_id: advanced-deep-learning-ctu
 
 ## Overview
 
-`Advanced Deep Learning (BEV033DLA)` introduces deep neural networks and deep learning, a branch of machine learning and artificial intelligence. It provides the algorithmic and theoretical concepts needed to design and train neural networks successfully, while building technical and practical skills in the domain.
+`Advanced Deep Learning (BEV033DLA)` introduces deep neural networks and Deep Learning, a branch of Machine Learning and Artificial Intelligence. It provides the algorithmic and theoretical concepts needed to design and train neural networks successfully, while building technical and practical skills in the domain.
 
-The course is best suited to master's students, who are expected to arrive with basic knowledge of machine learning and artificial intelligence.
+The course is best suited to master's students, who are expected to arrive with basic knowledge of Machine Learning and Artificial Intelligence.
 
 I have contributed as one of the lab instructors since 2026, supporting the practical and theoretical tutorials.
 

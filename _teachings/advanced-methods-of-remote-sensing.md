@@ -1,7 +1,7 @@
 ---
 layout: course
 title: Advanced Methods of Remote Sensing
-description: Deep learning and computer vision for remote sensing and Earth observation data, taught across five master's programs at NTUA.
+description: Deep Learning and Computer Vision for Remote Sensing and Earth Observation data, taught across five master's programs at NTUA.
 institution: National Technical University of Athens
 role: Visiting Lecturer
 role_order: 1
@@ -15,7 +15,7 @@ ects: 7.5
 
 ## Overview
 
-`Advanced Methods of Remote Sensing` is a multidisciplinary graduate course at the [National Technical University of Athens](https://ntua.gr/en/). Its aim is to familiarize students with deep learning and computer vision methods for remote sensing and Earth observation data.
+`Advanced Methods of Remote Sensing` is a multidisciplinary graduate course at the [National Technical University of Athens](https://ntua.gr/en/). Its aim is to familiarize students with Deep Learning and Computer Vision methods for Remote Sensing and Earth Observation data.
 
 I have taught the course since 2022. It runs in the spring semester and carries 7.5 ECTS, listed as course 6631 in the Geoinformatics program.
 
@@ -33,15 +33,15 @@ The course is offered across five master's programs:
 
 The syllabus spans the full path from sensing to learning:
 
-- Earth observation fundamentals and data acquisition systems
+- Earth Observation fundamentals and data acquisition systems
 - Multispectral and hyperspectral data
 - Thermal, radar, LiDAR, and SAR data
-- Standard remote sensing processing pipelines
+- Standard Remote Sensing processing pipelines
 - Supervised classification
 - Neural network architectures, including convolutional networks
 - Object-based image analysis and practical applications
 
-Students implement remote sensing pipelines and build software for visualizing and classifying multispectral data, working with PyTorch for machine learning analytics.
+Students implement Remote Sensing pipelines and build software for visualizing and classifying multispectral data, working with PyTorch for Machine Learning analytics.
 
 ## Links
 
