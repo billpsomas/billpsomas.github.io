@@ -9,19 +9,26 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-news",
+          title: "news",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
+        },{id: "nav-publications",
           title: "publications",
           description: "publications by categories in reversed chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-news",
-          title: "news",
-          description: "",
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "Graduate courses I teach on computer vision, deep learning, and Earth observation.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/news/";
+            window.location.href = "/teaching/";
           },
         },{id: "nav-cv",
           title: "CV",
@@ -110,6 +117,21 @@ ninja.data = [{
           description: "I will serve as an Area Chair at ICLR 2027.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_15/";
+            },},{id: "teachings-bev033dla-advanced-deep-learning",
+          title: 'BEV033DLA — Advanced Deep Learning',
+          description: "Algorithmic and theoretical foundations of deep neural networks, with weekly practical and theoretical labs, at CTU in Prague.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/advanced-deep-learning-ctu/";
+            },},{id: "teachings-advanced-methods-of-remote-sensing",
+          title: 'Advanced Methods of Remote Sensing',
+          description: "Deep learning and computer vision for remote sensing and Earth observation data, taught across five master&#39;s programs at NTUA.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/advanced-methods-of-remote-sensing/";
+            },},{id: "teachings-computer-vision",
+          title: 'Computer Vision',
+          description: "Learning visual representations for matching, retrieval, classification, and detection, in the MSc Data Science and Information Technologies at NKUA.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/computer-vision-dsit/";
             },},{
         id: 'social-cv',
         title: 'CV',
