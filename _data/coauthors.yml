@@ -6,21 +6,34 @@
 # firstname = every spelling of the first name that appears in
 #         _bibliography/papers.bib, so the entry matches however it is written.
 #
-# Only coauthors with a stable personal or institutional page are listed;
-# names without an entry simply render as plain text.
+# Preference order: personal site, then institutional page, then Google
+# Scholar profile where a coauthor has no page of their own.
+# Coauthors with none of these simply render as plain text.
 # All URLs below were checked and returned HTTP 200.
 
 "amsaleg":
   - firstname: ["Laurent", "L."]
     url: https://people.rennes.inria.fr/Laurent.Amsaleg/
 
+"aravanis":
+  - firstname: ["Tilemachos", "T."]
+    url: https://cmp.felk.cvut.cz/~aravatil/
+
 "avrithis":
   - firstname: ["Yannis", "Ioannis", "Y."]
     url: https://avrithis.net/
 
+"baltzi":
+  - firstname: ["Eirini", "E."]
+    url: "https://scholar.google.com/citations?user=5wy9Ec4AAAAJ&hl=en"
+
 "bursuc":
   - firstname: ["Andrei", "A."]
     url: https://abursuc.github.io/
+
+"christopoulos":
+  - firstname: ["Dionysis", "D."]
+    url: "https://scholar.google.com/citations?user=dLo8SsAAAAAJ&hl=en"
 
 "chum":
   - firstname: ["Ondrej", "Ondřej", "O."]
@@ -33,6 +46,10 @@
 "filntisis":
   - firstname: ["Panagiotis", "Panagiotis P.", "P."]
     url: https://filby89.github.io/
+
+"giannakopoulos":
+  - firstname: ["Theodoros", "Thodoris", "T."]
+    url: https://tyiannak.github.io/
 
 "gidaris":
   - firstname: ["Spyros", "S."]
@@ -70,6 +87,10 @@
   - firstname: ["Ioannis", "I."]
     url: https://orionlab.space.noa.gr/author/ioannis-papoutsis/
 
+"petsangourakis":
+  - firstname: ["Giorgos", "George", "G."]
+    url: "https://scholar.google.com/citations?user=0PI25YQAAAAJ&hl=en"
+
 "retsinas":
   - firstname: ["George", "Giorgos", "G."]
     url: https://georgeretsi.github.io/
@@ -77,6 +98,10 @@
 "sfikas":
   - firstname: ["Giorgos", "George", "G."]
     url: https://www.cs.uoi.gr/~sfikas/
+
+"sgouropoulos":
+  - firstname: ["Christos", "C."]
+    url: "https://scholar.google.com/citations?user=Cw7CeiAAAAAJ&hl=en"
 
 "stojnic":
   - firstname: ["Vladan", "V."]
