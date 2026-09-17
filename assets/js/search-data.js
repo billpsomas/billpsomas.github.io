@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Graduate courses I teach on computer vision, deep learning, and Earth observation.",
+          description: "Graduate courses I teach on Computer Vision, Deep Learning, and Earth Observation.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -124,7 +124,7 @@ ninja.data = [{
               window.location.href = "/teachings/advanced-deep-learning-ctu/";
             },},{id: "teachings-advanced-methods-of-remote-sensing",
           title: 'Advanced Methods of Remote Sensing',
-          description: "Deep learning and computer vision for remote sensing and Earth observation data, taught across five master&#39;s programs at NTUA.",
+          description: "Deep Learning and Computer Vision for Remote Sensing and Earth Observation data, taught across five master&#39;s programs at NTUA.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/advanced-methods-of-remote-sensing/";
             },},{id: "teachings-computer-vision",
