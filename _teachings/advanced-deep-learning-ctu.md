@@ -7,6 +7,7 @@ role: Lab Instructor
 role_order: 2
 year: 2026
 term: Summer semester
+years: Since 2026
 course_id: advanced-deep-learning-ctu
 ---
 
@@ -16,7 +17,9 @@ course_id: advanced-deep-learning-ctu
 
 The course is best suited to master's students, who are expected to arrive with basic knowledge of machine learning and artificial intelligence.
 
-I contribute as one of the lab instructors, supporting the practical and theoretical tutorials.
+I have contributed as one of the lab instructors since 2026, supporting the practical and theoretical tutorials.
+
+I ran the lab on `Vision Transformers`, and designed and ran the final lab as a student hackathon, which turned out to be a favourite with the class.
 
 ## Teaching Team
 

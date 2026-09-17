@@ -38,6 +38,6 @@ I teach graduate courses in computer vision, deep learning, and Earth observatio
 
 - `Advanced Methods of Remote Sensing` — NTUA, spring semester, since 2022, across five master's programs.
 - `Computer Vision` — NKUA, MSc in Data Science and Information Technologies, winter semester, since 2024.
-- `BEV033DLA — Advanced Deep Learning` — CTU in Prague, lab instructor.
+- `BEV033DLA — Advanced Deep Learning` — CTU in Prague, lab instructor, since 2026.
 
 More detail on the [teaching]({{ '/teaching/' | relative_url }}) page.
