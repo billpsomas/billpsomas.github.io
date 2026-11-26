@@ -117,6 +117,11 @@ ninja.data = [{
           description: "I will serve as an Area Chair at ICLR 2027.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_15/";
+            },},{id: "news-area-chair-at-icml-2027",
+          title: 'Area Chair at ICML 2027 🎉',
+          description: "I will serve as an Area Chair at ICML 2027.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_17/";
             },},{id: "teachings-advanced-deep-learning",
           title: 'Advanced Deep Learning',
           description: "Advanced Deep Learning (BEV033DLA) covers the algorithmic and theoretical foundations of deep neural networks, in the Open Informatics master’s program at CTU in Prague.",
