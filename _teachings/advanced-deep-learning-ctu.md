@@ -4,7 +4,7 @@ title: Advanced Deep Learning
 description: Advanced Deep Learning (BEV033DLA) covers the algorithmic and theoretical foundations of deep neural networks, in the Open Informatics master’s program at CTU in Prague.
 institution: Czech Technical University in Prague
 role: Lab Instructor
-role_order: 2
+role_order: 3
 year: 2026
 term: Spring semester
 years: Since 2026

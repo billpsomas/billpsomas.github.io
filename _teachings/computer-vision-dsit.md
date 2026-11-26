@@ -3,7 +3,7 @@ layout: course
 title: Computer Vision
 description: Learning visual representations for matching, retrieval, classification, and detection, in the MSc Data Science and Information Technologies at NKUA.
 institution: National and Kapodistrian University of Athens
-role: Visiting Lecturer
+role: Adjunct Lecturer
 role_order: 1
 year: 2025
 years: Since 2024

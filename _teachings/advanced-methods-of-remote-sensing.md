@@ -3,8 +3,8 @@ layout: course
 title: Advanced Methods of Remote Sensing
 description: Deep Learning and Computer Vision for Remote Sensing and Earth Observation data, taught across five master's programs at NTUA.
 institution: National Technical University of Athens
-role: Visiting Lecturer
-role_order: 1
+role: Co-teaching
+role_order: 2
 year: 2026
 years: Since 2022
 term: Spring semester
@@ -17,7 +17,7 @@ ects: 7.5
 
 `Advanced Methods of Remote Sensing` is a multidisciplinary graduate course at the [National Technical University of Athens](https://ntua.gr/en/). Its aim is to familiarize students with Deep Learning and Computer Vision methods for Remote Sensing and Earth Observation data.
 
-I have taught the course since 2022. It runs in the spring semester and carries 7.5 ECTS, listed as course 6631 in the Geoinformatics program.
+I have co-taught the course since 2022, delivering the Deep Learning and Computer Vision part. It runs in the spring semester and carries 7.5 ECTS, listed as course 6631 in the Geoinformatics program.
 
 ## Master's Programs
 
