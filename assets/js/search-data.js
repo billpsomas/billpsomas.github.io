@@ -114,17 +114,17 @@ ninja.data = [{
               window.location.href = "/news/announcement_14/";
             },},{id: "news-organizing-cv4good-at-eccv-2026",
           title: 'Organizing CV4GOOD at ECCV 2026',
-          description: "I am an organizer of CV4GOOD, the Computer Vision for Humanitarian Action workshop at ECCV 2026.",
+          description: "I was an organizer of CV4GOOD, the Computer Vision for Humanitarian Action workshop at ECCV 2026.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_18/";
             },},{id: "news-area-chair-at-iclr-2027",
           title: 'Area Chair at ICLR 2027 🎉',
-          description: "I will serve as an Area Chair at ICLR 2027.",
+          description: "I was invited to serve as an Area Chair at ICLR 2027.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_15/";
             },},{id: "news-area-chair-at-icml-2027",
           title: 'Area Chair at ICML 2027 🎉',
-          description: "I will serve as an Area Chair at ICML 2027.",
+          description: "I was invited to serve as an Area Chair at ICML 2027.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_17/";
             },},{id: "teachings-advanced-deep-learning",
