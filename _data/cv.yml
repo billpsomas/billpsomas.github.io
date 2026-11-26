@@ -125,3 +125,51 @@ cv:
         highlights:
           - Contributed to plant species recognition using machine learning and computer vision in the AdVENt project
           - Worked on jersey color/number datasets and spatio-temporal action localization
+
+    Honors and Awards:
+      - date: 2026
+        title: Outstanding Reviewer
+        awarder: European Conference on Computer Vision (ECCV) 2026
+        url: https://eccv.ecva.net/
+      - date: 2026
+        title: Most Popular Spotlight Presentation Award
+        awarder: Greeks in AI 2026
+        url: https://www.greeksin.ai/
+        summary: 'For "Retrieve and Segment: Are a Few Examples Enough to Bridge the Supervision Gap in Open-Vocabulary Segmentation?"'
+      - date: 2026
+        title: Elected Member of the ELLIS Society
+        awarder: European Laboratory for Learning and Intelligent Systems
+        url: https://ellis.eu/members
+      - date: 2025
+        title: Marie Skłodowska-Curie Postdoctoral Fellowship 2024
+        awarder: European Commission
+        url: https://marie-sklodowska-curie-actions.ec.europa.eu/calls/msca-postdoctoral-fellowships-2024
+        summary: Awarded with a score of 98/100 for the project RAVIOLI.
+
+    Academic Service:
+      - label: 2026
+        details: Area Chair, International Conference on Machine Learning (ICML) 2027
+      - label: 2026
+        details: Area Chair, International Conference on Learning Representations (ICLR) 2027
+      - label: 2026
+        details: Evaluator, ELLIS PhD Program, 2026-2027 recruiting round
+      - label: 2026
+        details: Organizing Committee, CV4GOOD workshop at ECCV 2026
+      - label: 2026
+        details: Publicity Chair and Volunteers Chair, Greeks in AI 2026
+      - label: Conference reviewing
+        details: CVPR, ICCV, ECCV, NeurIPS, ICLR, AAAI, EMNLP, WACV, BMVC, IGARSS, CAI
+      - label: Journal reviewing
+        details: TPAMI, IJCV, TNNLS, IEEE TMM, IEEE TCSVT, ACM Computing Surveys, ACM TOMM, MDPI Remote Sensing, MDPI Sensors
+
+    Invited Talks:
+      - label: 2026
+        details: Learning and Leveraging Vision and Vision-Language Representations for Recognition and Retrieval. GMUM, Jagiellonian University, Kraków
+      - label: 2025
+        details: AI From Zero to Hero. Gymnázium Arabská Inspiration Day, Prague
+      - label: 2025
+        details: My MSCA Postdoctoral Fellowship Proposal Journey. Technology Centre Prague workshop on MSCA Postdoctoral Fellowships
+      - label: 2024
+        details: Machine Learning for Earth Observation. IGARSS Summer School
+      - label: 2024
+        details: Leveraging Attention in Masked Image Modeling and Pooling. 48th Pattern Recognition and Computer Vision Colloquium
