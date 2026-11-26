@@ -1,9 +1,13 @@
 nbconvert
 pyyaml
 rendercv[full]
-scholarly
-# scholarly 1.7.x imports bibtexparser.bibdatabase, which bibtexparser 2.0
-# (released 2026-09-08) removed. Unpinned, CI installs v2 and `import
-# scholarly` raises ModuleNotFoundError, so update-citations.yml fails on
-# every run. Lift this pin only once scholarly supports bibtexparser 2.
+
+# Pinned deliberately. Unpinned, CI resolves the latest release on every run,
+# so an upstream release can break update-citations.yml without a commit here.
+#
+# scholarly has had no release since 1.7.11 (2023-01-16) and imports
+# bibtexparser.bibdatabase, which bibtexparser 2.0 removed on 2026-09-08.
+# That break went unnoticed for 36 scheduled runs. Lift the bibtexparser pin
+# only once scholarly supports bibtexparser 2.
+scholarly==1.7.11
 bibtexparser<2
