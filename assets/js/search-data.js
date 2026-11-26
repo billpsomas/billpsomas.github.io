@@ -77,6 +77,11 @@ ninja.data = [{
           description: "Our paper accepted to CVPR 2026. Code and preprint available.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_5/";
+            },},{id: "news-elected-member-of-the-ellis-society",
+          title: 'Elected Member of the ELLIS Society 🎉',
+          description: "I became a member of the ELLIS Society.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_19/";
             },},{id: "news-invited-talk-at-gmum-jagiellonian-university",
           title: 'Invited Talk at GMUM, Jagiellonian University',
           description: "I gave an invited talk at the GMUM machine learning group in Kraków.",
@@ -122,6 +127,11 @@ ninja.data = [{
           description: "I was invited to serve as an Area Chair at ICLR 2027.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_15/";
+            },},{id: "news-evaluator-for-the-ellis-phd-program",
+          title: 'Evaluator for the ELLIS PhD Program',
+          description: "I was invited to serve as an Evaluator for the ELLIS PhD Program 2026-2027 recruiting round.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_20/";
             },},{id: "news-area-chair-at-icml-2027",
           title: 'Area Chair at ICML 2027 🎉',
           description: "I was invited to serve as an Area Chair at ICML 2027.",
