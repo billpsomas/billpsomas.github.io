@@ -87,6 +87,11 @@ ninja.data = [{
           description: "CV4GOOD, a workshop on computer vision for humanitarian action, was accepted at ECCV 2026. I am on the organizing committee.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_11/";
+            },},{id: "news-organizing-cv4good-at-eccv-2026",
+          title: 'Organizing CV4GOOD at ECCV 2026',
+          description: "I am an organizer of CV4GOOD, the Computer Vision for Humanitarian Action workshop at ECCV 2026.",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_18/";
             },},{id: "news-accepted-to-eccv-2026-reglue-your-latents",
           title: 'Accepted to ECCV 2026 — REGLUE Your Latents 🎉',
           description: "Our paper accepted to ECCV 2026. Code and preprint available.",
